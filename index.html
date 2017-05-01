@@ -9,19 +9,30 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <!-- TODO: Make a favicon that better represents the page. -->
         <link rel="shortcut icon" href="favicon.ico">
+      <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/manifest.json">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
         <link rel="stylesheet" href="css/main.css">
     </head>
 
     <body>
 
         <header>
-            <!-- TODO: Create an elegant header using either one of the images
-                 or the video loop included in this repository. Make sure the
-                 page navigation is presented clearly and in a user-friendly
-                 way. Also, be sure to choose the proper image format as you
-                 insert backgrounds and other images into the page. Balance
-                 image quality with file size to achieve the best user
-                 experience. -->
+           
             <h1>Monkaa</h1>
             <p class="subtitle">An open source short film</p>
             <nav>
@@ -34,26 +45,24 @@
         </header>
 
         <aside id="social">
-            <!-- TODO: Experiment with different ways of making this set of
-                 share links stand out and stay near the user all the time.
-                 Try using 'absolute', 'fixed', or even 'sticky' positioning
-                 to achieve a user-friendly effect. You may also use the
-                 `:hover` pseudoselector to trigger height or width changes
-                 that could help you make a more interactive design. -->
+           
             <h2>Share</h2>
             <ul class="social-links">
                 <li class="twitter"><a href="http://twitter.com">Twitter</a></li>
                 <li class="facebook"><a href="http://facebook.com">Facebook</a></li>
                 <li class="instagram"><a href="http://instagram.com">Instagram</a></li>
+              
             </ul>
         </aside>
 
         <section id="watch">
             <h2>Watch</h2>
-            <!-- TODO: Embed the .webm and .mp4 video with full controls for a
-                 convenient and attractive video viewing experience. -->
-
-            <!-- TODO: Style an elegant download link to download the video. -->
+            <video controls poster="media/video/poster.png">
+             <source src="media/video/monka.mp4" type=video/mp4>
+             <source src="media/video/monkaa_1080.webm" type=video/webm>
+                   
+           </video>           
+               
             <h3>Download the video</h3>
             <p>
                 Click below to download either MP4 or WEBM versions of this video.
@@ -65,10 +74,7 @@
 
         <section id="listen">
             <h2>Listen</h2>
-            <!-- TODO: Embed an audio player so users can play back the
-                 soundtrack MP3 directly on the page. -->
-
-            <!-- TODO: Style an elegant download link to download the video. -->
+           
             <p>
                 <a class="download-button" href="media/audio/monkaa_soundtrack.mp3">Download as MP3</a>
             </p>
@@ -86,6 +92,7 @@
                      each headshot below. Images are located in the
                      ``img/weybec/`` directory. -->
                 <li>
+                  
                     <img class="headshot" src="TODO" alt="Pratik Solanki headshot"><br>
                     Pratik Solanki<br>
                     Co-Founder
