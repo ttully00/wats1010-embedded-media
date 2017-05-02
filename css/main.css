@@ -4,7 +4,51 @@
  *
  * Site Styles
  *****************************************************************************/
+html{
+    padding: 0;
+}
+body{
+    margin: 0;
+    background-color: pink;
+}	
+header{
+    min-height: 500px;
+    background-image: url('../img/official_header.jpg');
+	backgound-repeat: repeat;
+	background-repeat: center center;
+	background-size: cover;
+}
+#social{
+  background: pink;
+	position: absolute;
+	top: 50px;
+	right: 0;
+	width: 25px;
+	transition: 2s width;
+}
+#social:hover{
+    width: 250px;
+}	
+#social ul{
+    list-style-type: none;
+	padding: none;
+}	
+#social li{
+     margin: 0;
+	 padding: 0;
+}
+.download-button {
+    background-color: green;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
 
- html {
-     color: green;
- }
+a:hover, a:active {
+    background-color: pink;
+}
+#watch{
+  border-style: solid;
+}
